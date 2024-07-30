@@ -20,7 +20,7 @@ async function page() {
       <p>Welcome, {user.firstName}!</p>
       <p>Your email: {user.emailAddresses[0].emailAddress}</p>
       {dbUser && (
-        <div className="mt-4">
+        <div className="mt-4">  
           <h2 className="text-xl font-semibold mb-2">Database User Info:</h2>
           <p>Clerk ID: {dbUser.clerkId}</p>
           {dbUser.username && <p>Username: {dbUser.username}</p>}
